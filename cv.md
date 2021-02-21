@@ -14,6 +14,7 @@ Minsk, Belarus
 - English (A2+)
 
 >Contacts:
+
 - Phone: +375293130275 (A1)
 - Email: Chayka_Lory@mail.ru
 - Telegram: @croft_queen
