@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 17.5px;
+}
+
+body {
+  background: url(assets/images/фон.jpg);
+  background-repeat: no-repeat;
+  margin: 30px 0;
+}
+
+header, main {
+  width: 75rem;
+  margin: 0 auto;
+  background-color: #cac9c9;
+}
+
+main {
+  padding-bottom: 10px;
+  opacity: 0.85;
+}
+
+.wrapper {
+  width: 70rem;
+  margin: 0 auto;
+  background-color: #cac9c9;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 15%;
+  height: 15%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.main {
+  width: 70rem;
+  background-color: #cac9c9;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 254px 225px 494px;
+      grid-template-rows: 254px 225px 494px;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 5px;
+}
+
+h4 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.profile,
+.contacts {
+  border-top: 2px solid #a1a1a1;
+  border-bottom: 2px solid #a1a1a1;
+}
+
+.profile h2 {
+  margin-bottom: 20px;
+}
+
+.profile,
+.education,
+.skills {
+  border-right: 2px solid #a1a1a1;
+}
+
+.profile h2, .profile p,
+.education h2,
+.education p,
+.skills h2,
+.skills p {
+  text-align: right;
+  margin-right: 30px;
+}
+
+.education {
+  border-bottom: 2px solid #a1a1a1;
+}
+
+.education h2 {
+  margin-bottom: 20px;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.experience h2,
+.contacts h2 {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.experience h2 {
+  margin-bottom: 20px;
+}
+
+.uni p:nth-child(3) {
+  display: none;
+}
+
+.school p:nth-child(3) {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-top: 10px;
+  font-size: 17.5px;
+}
+
+ul img {
+  margin: 0 10px 0 0;
+  width: 20px;
+}
+
+.spisok-contacts {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.spisok-contacts li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.list {
+  text-align: right;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.rating {
+  margin-top: 10px;
+  margin-right: 50px;
+}
+
+.skills-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.work-experience {
+  margin-left: 30px;
+}
+
+.work-experience li {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1224px) and (min-width: 1024px) {
+  .wrapper {
+    width: 57rem;
+  }
+  header, main {
+    width: 62rem;
+  }
+  .main {
+    width: 57rem;
+    -ms-grid-rows: 279px 225px 494px;
+        grid-template-rows: 279px 225px 494px;
+  }
+  img {
+    width: 18%;
+    height: 18%;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .wrapper {
+    width: 42rem;
+  }
+  header, main {
+    width: 47rem;
+  }
+  .main {
+    width: 42rem;
+    -ms-grid-rows: 330px 198px 493px;
+        grid-template-rows: 330px 198px 493px;
+  }
+  .uni p:nth-child(3) {
+    display: block;
+  }
+  .uni p:nth-child(2) {
+    display: none;
+  }
+  .school p:nth-child(3) {
+    display: block;
+  }
+  .school p:nth-child(2) {
+    display: none;
+  }
+  .content {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  img {
+    width: 22%;
+    height: 22%;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 490px) {
+  .wrapper {
+    width: 27rem;
+  }
+  header, main {
+    width: 29rem;
+  }
+  .main {
+    width: 27rem;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 278px 256px 296px 612px 494px;
+        grid-template-rows: 278px 256px 296px 612px 494px;
+  }
+  img {
+    width: 30%;
+    height: 30%;
+  }
+  h1 {
+    font-size: 25px;
+    letter-spacing: 12px;
+  }
+  .profile,
+  .education,
+  .skills,
+  .contacts,
+  .experience {
+    border-right: none;
+  }
+  .profile h2,
+  .education h2,
+  .skills h2,
+  .contacts h2,
+  .experience h2 {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .profile p,
+  .education p,
+  .skills p,
+  .contacts p,
+  .experience p {
+    text-align: justify;
+    margin-right: 0;
+  }
+  .profile {
+    border-bottom: none;
+  }
+  .experience {
+    border-bottom: 2px solid #a1a1a1;
+  }
+  .spisok-contacts {
+    margin-left: 0;
+  }
+  .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .uni {
+    margin-bottom: 20px;
+  }
+  .work-experience {
+    margin-left: 0;
+  }
+  .skills-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 490px) {
+  .wrapper {
+    width: 18rem;
+  }
+  header, main {
+    width: 20rem;
+  }
+  .main {
+    width: 18rem;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 327px 258px 322px 715px 519px;
+        grid-template-rows: 327px 258px 322px 715px 519px;
+  }
+  .profile,
+  .education,
+  .skills,
+  .contacts,
+  .experience {
+    border-right: none;
+  }
+  .profile h2,
+  .education h2,
+  .skills h2,
+  .contacts h2,
+  .experience h2 {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .profile p,
+  .education p,
+  .skills p,
+  .contacts p,
+  .experience p {
+    text-align: justify;
+    margin-right: 0;
+  }
+  .profile {
+    border-bottom: none;
+  }
+  .experience {
+    border-bottom: 2px solid #a1a1a1;
+  }
+  .spisok-contacts {
+    margin-left: 0;
+  }
+  .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .uni {
+    margin-bottom: 20px;
+  }
+  .work-experience {
+    margin-left: 0;
+  }
+  .skills-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  img {
+    width: 50%;
+    height: 50%;
+  }
+  h1 {
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 10px;
+  }
+}
