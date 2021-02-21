@@ -4,6 +4,7 @@
 
 - Systems Engineer, Belarusian State University of Informatics and Radioelectronics (2018 - Present)
 - JavaScript, The Rolling Scopes School (2020 - Present)
+
 >Location:
 
 Minsk, Belarus
@@ -11,11 +12,13 @@ Minsk, Belarus
 
 - Russian (native) 
 - English (A2+)
+
 >Contacts:
 - Phone: +375293130275 (A1)
 - Email: Chayka_Lory@mail.ru
 - Telegram: @croft_queen
 - Github: @croftik
+
 >Other:
 
 A person, who're always ready to work hard and learn a lot of new information. 
